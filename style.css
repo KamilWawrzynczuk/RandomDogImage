@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Cute Font', cursive;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: #FFE6E6;
+    color: #83b5c7;
+}
+
+.heading-title {
+    font-size: 8rem;
+}
+
+.label-breed {
+    font-size: 5rem;
+    display: block;
+}
+
+select {
+    padding: 1rem;
+    background-color: #FFE6E6;
+    border: 2px solid  #83b5c7;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color:  #83b5c7;
+    font-weight: bold;
+}
+
+select:focus{
+    outline: none;
+}
+
+.get-doggos {
+    display: block;
+    margin: 2rem auto;
+    width: 15rem;
+    padding: 0 1rem;
+    font-size: 4rem;
+    font-family: 'Cute Font', cursive;
+    background-color: #83b5c7;
+    color: #FFE6E6;
+    border: none;
+    border-radius: 10px;
+    transition:  all .3s;
+}
+
+.get-doggos:hover {
+    background-color: #538597;
+    color: #f3ecec;
+}
+
+.get-doggos:active {
+    background-color: #2b5463;
+    color: #f3ecec;
+    transform: scale(.9);
+  
+}
+
+.doggos {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    flex: 1;
+    gap: 1rem;
+    width: 70%;
+}
+
+.doggos img {
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+
+
+
+
+
+
+
