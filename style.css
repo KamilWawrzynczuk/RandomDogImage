@@ -21,6 +21,7 @@ body {
 
 .heading-title {
     font-size: 8rem;
+    margin: 0;
 }
 
 .label-breed {
@@ -44,7 +45,7 @@ select:focus{
 
 .get-doggos {
     display: block;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
     width: 15rem;
     padding: 0 1rem;
     font-size: 4rem;
@@ -69,13 +70,13 @@ select:focus{
 }
 
 .doggos {
-    margin: 2rem auto;
+    margin: 1.5rem auto;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     flex: 1;
     gap: 1rem;
-    width: 70%;
+    width: 90%;
 }
 
 .doggos img {
